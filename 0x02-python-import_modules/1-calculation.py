@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """The addition, diff, mul  and quotient of a and b"""
+    """Print the sum, difference, multiple and quotient of a and    b
+    """
     from calculator_1 import add, sub, mul, div
     a = 10
     b = 5
