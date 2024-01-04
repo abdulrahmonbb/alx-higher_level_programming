@@ -4,6 +4,7 @@ if __name__ == "__main__":
 
     names = dir(hidden_4)
     for name in names:
-        if name.startswith('_'): continue
+        if name.startswith('_'): 
+            continue
         else:
             print("{}".format(name))
