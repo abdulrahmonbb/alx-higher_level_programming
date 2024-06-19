@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // Prints a square
 
-size = process.argv[2];
+const size = process.argv[2];
 
 if (isNaN(size)) {
   console.log('Missing size');
