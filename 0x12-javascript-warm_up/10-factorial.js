@@ -1,14 +1,14 @@
 #!/usr/bin/node
 // Computes and prints a factorial
-n = parseInt(process.argv[2])
+const n = parseInt(process.argv[2]);
 
-function factorial(n) {
+function factorial (n) {
   if (isNaN(n)) {
     return 1;
-  } 
+  }
   if (n <= 1) {
     return 1;
-  } 
+  }
   return n * factorial(n - 1);
 }
 
