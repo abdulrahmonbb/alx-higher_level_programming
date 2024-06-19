@@ -1,11 +1,8 @@
 # **0x12. JavaScript - Warm up**
-___
 ## Learning Objectives
-___
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ### General
-***
 - Why JavaScript programming is amazing
 - How to run a JavaScript script
 - How to create variables and constants
