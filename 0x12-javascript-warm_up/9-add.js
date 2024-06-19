@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // Prints the addition of two integers
 
-function add(a, b) {
+function add (a, b) {
   a = process.argv[2];
   b = process.argv[3];
 
