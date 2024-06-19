@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// Prints x times 'C is fun'
 
 const x = process.argv[2];
 
