@@ -1,3 +1,4 @@
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
 # **0x12. JavaScript - Warm up**
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
