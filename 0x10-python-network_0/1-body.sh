@@ -1,3 +1,3 @@
 #!/bin/bash
 # This script displays the body of the response of a GET request to the url
-echo -sL "$1"
+curl -sL "$1"
