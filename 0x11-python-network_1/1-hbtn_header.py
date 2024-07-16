@@ -13,8 +13,5 @@ url = argv[1]
 if __name__ == '__main__':
     request = Request(url)
     with urlopen(request) as response:
-        headers = response.getheaders()
-
-    for header in headers:
-        if header[0] == 'X-Request-Id':
-            print(header[1])
+        request_id = response.info().get('X-Request-Id')
+        print(request_id)
